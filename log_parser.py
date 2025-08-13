@@ -52,7 +52,7 @@ print("✅ Отчёт сохранён в suspicious_ips.csv")
 import requests
 
 # --- Настройки Telegram ---
-BOT_TOKEN = "8248764947:AAE5HWQjFFdDGXSdqDAGIQlFce1tGhG5IT4"
+BOT_TOKEN = "TG_BOT_TOKEN"
 CHAT_ID = "5717271579"
 
 def send_alert_to_telegram(ip, count):
